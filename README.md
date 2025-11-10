@@ -1,4 +1,4 @@
-# Chat-QnA
+# Ask-DB
 
 A small Python project for creating a chat / Q&A interface that integrates SQL tools and prompt templates.
 
