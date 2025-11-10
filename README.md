@@ -70,13 +70,3 @@ from langchain.prompts import PromptTemplate
 - Add tests for prompt construction (unit tests).
 - Add a short CONTRIBUTING.md and license if this will be shared.
 
-## Contact / Notes
-
-This README is intentionally minimal. If you want, I can:
-
-- Create an `examples/run_chat.py` example and a small SQLite fixture.
-- Inspect `requirements.txt` and update the README to explicitly document the versions used.
-
----
-
-(Generated automatically)
