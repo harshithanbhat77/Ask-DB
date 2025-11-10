@@ -1,0 +1,7 @@
+langchain==1.0.3
+langchain_community==0.4.1
+langchain_ollama==1.0.0
+SQLAlchemy==2.0.35
+streamlit==1.39.0
+pymysql
+psycopg2
