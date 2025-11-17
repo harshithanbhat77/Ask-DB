@@ -1,6 +1,6 @@
 from langchain_community.utilities import SQLDatabase
 from langchain_community.tools.sql_database.tool import (
-    QuerySQLDataBaseTool,
+    QuerySQLDatabaseTool,
     InfoSQLDatabaseTool,
     ListSQLDatabaseTool,
 )
@@ -38,7 +38,7 @@ class CustomSQLToolkit(SQLDatabaseToolkit):
     def _create_optimized_tools(self):
         """Define optimized tools for complex queries."""
         return [
-            QuerySQLDataBaseTool(
+            QuerySQLDatabaseTool(
                 db=self.db,
                 name="optimized_query_sql_db",
                 description="Run optimized SQL queries using joins, filters, and aggregations.",
